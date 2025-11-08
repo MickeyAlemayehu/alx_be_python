@@ -1,4 +1,4 @@
-current_age = int(input("Enter your current age: "))
+current_age = input("Enter your current age: ")
 def futureAge(age):
     future_age = age + 27
     return future_age
