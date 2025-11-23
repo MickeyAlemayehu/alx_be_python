@@ -1,11 +1,11 @@
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
-def convert_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
+def convert_to_celsius(tmp):
+    return (tmp - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
-def convert_to_fahrenheit(celsius):
-    return CELSIUS_TO_FAHRENHEIT_FACTOR * celsius + 32
+def convert_to_fahrenheit(tmp):
+    return CELSIUS_TO_FAHRENHEIT_FACTOR * tmp + 32
 
 def main():
     try:
