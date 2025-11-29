@@ -6,7 +6,7 @@ def safe_divide(numerator, denominator):
         return "Error: Please enter numeric values only."
     try:
         result = numerator / denominator
-        return print(f"The result of the division is {result}")
+        return result
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
     
